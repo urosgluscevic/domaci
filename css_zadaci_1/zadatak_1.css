@@ -85,9 +85,10 @@ p{
     background-color: gray;
     width: 50px;
     height: 50px;
-    position: absolute;
-    left: 450px;
-    bottom: 490px;
+    position: relative;
+
+    bottom: 100px;
+    left: 390px;
 
     opacity: 80%;
 
@@ -110,9 +111,10 @@ p{
     background-color: gray;
     width: 65px;
     height: 65px;
-    position: absolute;
-    left: 485px;
-    bottom: 535px;
+    position: relative;
+
+    bottom: 72%;
+    left: 87%;
 
     opacity: 80%;
 
@@ -130,4 +132,38 @@ p{
     left: 4px;
     right: 4px;
     bottom: 4px;
+}
+
+#krug3{
+    background-color: gray;
+    width: 150px;
+    height: 90px;
+    position: relative;
+
+    bottom: 120%;
+    left: 100%;
+
+    opacity: 80%;
+
+    border: white solid 1px;
+    border-radius: 60px;
+}
+
+#krug3::before{
+    content: "";
+    position: absolute;
+
+    border: 5px honeydew dashed;
+    border-radius: 60px;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+}
+pre{
+    color: white;
+    text-align: center;
+    font-family: "sans";
+    margin-top: 25px;
+    padding: 0px;
 }
